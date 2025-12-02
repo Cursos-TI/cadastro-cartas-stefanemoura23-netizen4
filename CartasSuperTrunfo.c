@@ -84,7 +84,7 @@ int main() {
     // = DETERMINAR A CARTA VENCEDORA =
     // Critério escolhidos: maior população
 
-    printf("\n=== Resultado ===\n");
+    printf("\n=Resultado =\n");
 
     if (carta1.populacao > carta2.populacao) {
         printf("A carta vencedora é: %s (Cidade: %s)\n", carta1.codigo, carta1.cidade);
